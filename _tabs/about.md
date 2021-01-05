@@ -24,7 +24,3 @@ Nascido e criado em Angra dos Reis, tenho 17 anos e sempre gostei de matemática
 Estudo (fora da quarentena haha) durante o dia todo, no turno matutino, no Colégio Estádual Roberto Montenegro. Lá eu curso o 3º ano do ensino médio regular e estudo lá desde 2010. Já no período vespertino, no Centro Federal de Educação Tecnológica Celso Suckow da Fonseca, o CEFET/RJ. E nele curso o 5º período do curso técnico em mecânica, e ingressei em 2018.1
 
 No extra-turno, costumo aprender matemática de nível superior, diversas curiosidades, $\LaTeX$, linguagens de programação (ou marcação). Estou sempre buscando aprender algo novo e me aprofundar no que já sei um pouco.
-
----
-
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
