@@ -18,7 +18,7 @@ description: >- # used by seo meta and the atom feed
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: "https://adamesalles.github.io/"
 
-author: Eduardo Adame SAlles # change to your full name
+author: Eduardo Adame Salles # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg # support internet resources
 
@@ -30,7 +30,7 @@ twitter:
 
 social:
   name: Eduardo Adame Salles # it will shows as the copyright owner in Footer
-  email: eadamesalles@gmail.com # change to your email address
+  email: "eadamesalles@gmail.com" # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/adamesalles # change to your twitter homepage
@@ -50,7 +50,7 @@ baseurl: ""
 timezone: America/Sao_Paulo
 
 google_analytics:
-  id: "" # Fill with your Google Analytics ID
+  id: "186658707" # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -76,7 +76,8 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark# <light|dark>
+theme_mode: dark
+# <light|dark>
 
 # boolean type, the global switch for ToC in posts.
 toc: true
