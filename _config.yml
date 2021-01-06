@@ -6,21 +6,21 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Edu Adame # the main title
+title: AdameNotes # the main title
 
-tagline: A text-focused Jekyll theme. # it will display as the sub-title
+tagline:
+  Eduardo Adame's blog - Data Science Undergratuate Student.
+  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  AdameNotes - Eduardo Adame's personal blog. Mathmatics and Data Science thoughts of a enthusiastic student.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: "https://adamesalles.github.io/"
 
 author: Eduardo Adame Salles # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg # support internet resources
+#avatar: /assets/img/avatar.jpg # support internet resources
 
 github:
   username: adamesalles # change to your github username
@@ -61,8 +61,8 @@ google_analytics:
     cache: false # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: false # boolean type, the global switch for posts comments.
-  shortname: "@eduardoadamesalles" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: true # boolean type, the global switch for posts comments.
+  shortname: "eduardoadamesalles" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Prefer color scheme setting.
 #
@@ -76,7 +76,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode:
 # <light|dark>
 
 # boolean type, the global switch for ToC in posts.
