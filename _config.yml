@@ -9,14 +9,14 @@
 title: AdameNotes # the main title
 
 tagline:
-  Eduardo Adame's blog # - Data Science Undergratuate Student.
+  Mathematic and Technology in one site. # - Data Science Undergratuate Student.
   # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   AdameNotes - Eduardo Adame's personal blog. Mathmatics and Data Science thoughts of a enthusiastic student.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: "https://adamesalles.github.io"
+url: "https://adame.live"
 
 author: Eduardo Adame Salles # change to your full name
 
