@@ -8,7 +8,7 @@ math: true
 mermaid: true
 ---
 
-# What was my expectations about today?
+# What were my expectations about today?
 
 Well, yesterday I was really anxious about today. I thought I'd start the day with a Analytical Geometry class, at 7:30am. And, at 8:30am, I'd go to the school year beginning ceremony and there I'd meet all my classmates and teachers. When it was over, the next classes would be prepared for me (and my new classmates), and so I'd study Calculus and Computing.
 
