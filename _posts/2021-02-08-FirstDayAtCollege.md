@@ -44,7 +44,7 @@ Before the Calculus class, we went to the Computing one. But, our teacher didn't
 
 ## The after lunch.
 
-At 2am, we - only the scholarship students - went to a meeting with our coordination, lead by DSc. Camacho. He congratulated us by joining in College with a scholarship. He is also the creator of the olympiad that I'm a medalist. He was kind of a unreachble man for me, meeting him realized my day. I had some talking with him, he joked, told stories, motivated all us. I'm pretty glad to join his team.
+At 2pm, we - only the scholarship students - went to a meeting with our coordination, lead by DSc. Camacho. He congratulated us by joining in College with a scholarship. He is also the creator of the olympiad that I'm a medalist. He was kind of a unreachble man for me, meeting him realized my day. I had some talking with him, he joked, told stories, motivated all us. I'm pretty glad to join his team.
 
 ---
 
