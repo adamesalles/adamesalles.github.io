@@ -34,7 +34,7 @@
   ],
   "education": [
     {
-      "institution": "School of Applied Mathematics, Getulio Vargas Foundation",
+      "institution": "School of Applied Mathematics, Getulio Vargas Foundation, Rio de Janeiro, Brazil",
       "location": "Brazil",
       "url": "https://emap.fgv.br/en",
       "area": "Data Science",
@@ -78,47 +78,33 @@
       "url": "https://premiacao.obmep.org.br/2018/verRelatorioPremiadosBronze.do.htm"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Statistics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Statistical Inference",
+        "Computational Statistics",
+        "Machine Learning",
+        "Causality"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "R",
+        "Julia",
+        "C++"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Portuguese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -126,42 +112,86 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate",
+      "icon": ""
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Basic",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Statistics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Probabilistic Machine Learning",
+        "Bayesian Statistics",
+        "Gaussian processes",
+        "Stochastic simulation",
+        "Causal Inference"
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Linux",
+        "LaTeX",
+        "Git/Github",
+        "Docker",
+        "Web development"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Luiz Max Carvalho, PhD.",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "- <a href='https://github.com/maxbiostat'>Homepage</a>; <br> - <a href='mailto:lmax.fgv@gmail.com' target='_blank'> E-mail</a>."
     },
     {
-      "name": "Professor John Doe",
+      "name": "Prof. Yuri Saporito, PhD.",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "- <a href='https://yurisaporito.com'>Homepage</a>; <br> - <a href='mailto:yuri.saporito@gmail.com' target='_blank'> E-mail</a>."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Shape-constrained Gaussian Processes",
+      "summary": "The use of Gaussian processes is a powerful technique for estimating functions which cannot be evaluated across their entire domain, allowing for the quantification of estimation uncertainties, especially when following the Bayesian paradigm. However, when we have prior knowledge about the shape properties of a function, especially its derivatives, it is possible to enhance the quality of our estimates. This project focuses on the development and application of shape-constrained Gaussian processes to improve function estimation. Supervised by Professor Luiz Max de Carvalho, PhD.",
+      "highlights": ["Gaussian processes", "Bayesian statistics", "Shape-constrained estimation"],
+      "startDate": "2023-10",
+      "endDate": "Today",
+      "url": "https://github.com/adamesalles/shape-constrained-gaussian-processes"
+    },
+    {
+      "name": "A Bayesian approach to understanding the Homicide Rate in the City of Rio de Janeiro by administrative regions through their Social Progress Index indicators",
+      "summary": "This study aims to investigate the relationship between the homicide rate in the city of Rio de Janeiro and the indicators of the Social Progress Index. Our approach involves employing Bayesian methodology to estimate the parameters of three multilevel models and subsequently comparing their performance. The Social Progress Index serves as a measure of the overall quality of life and social well-being of the population, and it has been regularly published by the Pereira Passos Institute for the City of Rio de Janeiro biennially since 2016. Given the well-known issue of violence in Rio de Janeiro, the homicide rate serves as a pertinent indicator of this problem. The city is divided into 33 administrative regions, and we utilize the corresponding data throughout this research.",
+      "highlights": ["Bayesian statistics", "Multilevel models", "Social Progress Index"],
+      "startDate": "2023-05",
+      "endDate": "2023-05",
+      "url": "https://github.com/adamesalles/homicide-rate-rj"
+    },
+    {
+      "name": "Gaussian Processes Visual Tool",
+      "summary": "This paper presents the Gaussian Processes Visual Tool, an interactive tool for visualizing Gaussian Processes (GPs). The tool combines the power of Svelte, D3.js, Flask, and GPyTorch to provide a flexible and user-friendly interface. With the Gaussian Processes Visual Tool, users can visualize and understand GPs, make observations, and explore various kernel functions. The tool offers simulation options, allowing users to set axis parameters, likelihood variance, and even upload custom datasets. It stands out for its aesthetic design, comprehensive functionalities, and the integration of multiple important technologies. The Gaussian Processes Visual Tool fills a gap by offering a beautiful and useful tool that combines all essential GP functions in one place.",
+      "highlights": ["Gaussian processes", "Bayesian statistics", "Interactive visualization"],
+      "startDate": "2023-05",
+      "endDate": "2023-05",
+      "url": "https://github.com/adamesalles/gp-visual-tool"
+    },
+    {
+      "name": "Voyager’s Journey: an interactive visualization of NASA’s mission through the solar system",
+      "summary": "Joint work with Juan Belieni (FGV EMAp) and Marcelo Amaral (FGV EMAp). TThis article presents an interactive visualization using web technologies of the Voyager program by showing, for each probe, a simulation of the Solar System, containing the probe’s position for each day, the main events of the mission inside a timeline and a gallery of images captured by them. The visualization is controllable by a player, which offers the option to play, pause, change the speed and reset the whole visualization.",
+      "highlights": ["D3.js", "NASA's Voyager program", "Interactive visualization"],
+      "startDate": "2023-05",
+      "endDate": "2023-05",
+      "url": "https://fgv-vis-2023.github.io/final-project-voyagers-journey/"
     }
   ]
 }
