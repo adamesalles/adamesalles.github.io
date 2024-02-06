@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an individual with a passion for learning things that can help people.
+My goal is to learn what can help people.
 
 Currently, I'm an undergraduate student at the [School of Applied Mathematics](https://emap.fgv.br/en) of the Getulio Vargas Foundation (FGV EMAp). Also, I'm a research assistant at the [The World Bank](https://www.worldbank.org/en/home).
 
