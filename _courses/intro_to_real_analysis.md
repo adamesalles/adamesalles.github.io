@@ -14,4 +14,4 @@ Staff:
 - Teaching Assistant Eduardo Adame (me)
 - Teaching Assistant Wendell Oliveira
 
-This course is being held during the summer of 2024 at the [School of Applied Mathematics](https://emap.fgv.br/) of [Getulio Vargas Foundation](https://fgv.br/) as the Master's admission exam.
+This course is being held during the summer of 2024 at the [School of Applied Mathematics](https://emap.fgv.br/en) of [Getulio Vargas Foundation](https://portal.fgv.br/en) as the Master's admission exam.

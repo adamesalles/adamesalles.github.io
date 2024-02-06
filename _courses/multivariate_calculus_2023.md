@@ -13,4 +13,4 @@ Staff:
 - Professor Sônia Durães, PhD.
 - Teaching Assistant Eduardo Adame (me)
 
-This course was held during the summer of 2023 at the [School of Applied Mathematics](https://emap.fgv.br/) of [Getulio Vargas Foundation](https://fgv.br/).
+This course was held during the summer of 2023 at the [School of Applied Mathematics](https://emap.fgv.br/en) of [Getulio Vargas Foundation](https://portal.fgv.br/en).

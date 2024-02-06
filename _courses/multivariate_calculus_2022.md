@@ -14,4 +14,4 @@ Staff:
 - Teaching Assistant Carlos Alberto Moreira Junior
 - Teaching Assistant Eduardo Adame (me)
 
-This course was held during the second semester (spring) of 2022 at the [School of Applied Mathematics](https://emap.fgv.br/) of [Getulio Vargas Foundation](https://fgv.br/).
+This course was held during the second semester (spring) of 2022 at the [School of Applied Mathematics](https://emap.fgv.br/en) of [Getulio Vargas Foundation](https://portal.fgv.br/en).
