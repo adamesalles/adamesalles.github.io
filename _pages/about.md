@@ -25,6 +25,6 @@ Currently, I'm an undergraduate student at the [School of Applied Mathematics](h
 
 My interest is in the intersection of data science, statistics and stochastic processes. Joining these fields, I'm working on Gaussian processes and their applications in emulating functions.
 
-Please, check out my [CV](./cv) for more information.
+Please, check out my [CV](https://adamesalles.github.io/cv) for more information.
 
 If I can help you with anything, feel free to contact me. 
