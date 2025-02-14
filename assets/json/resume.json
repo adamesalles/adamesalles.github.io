@@ -5,7 +5,7 @@
     "image": "",
     "email": "eadamesalles@gmail.com",
     "url": "https://adamesalles.github.io",
-    "summary": "I am an individual with a passion for learning things that can help people.\nSince my early years, I have been keenly interested in technology, programming, and mathematics. At 14, I joined the Federal Center for Technological Education Celso Suckow da Fonseca (CEFET/RJ), where I gained experience as a teaching assistant and project leader even before starting my undergraduate studies.\nDuring my technical course, I focused on structural analysis, computational mechanics, and robotics.\nI was the captain and founding member of the leading drone team in the state of Rio de Janeiro, ranking 8th nationally in the Formula Drone SAE Brazil competition, with about 50 competitors.\nDuring this time, I also participated in several national knowledge olympiads and received numerous awards, notably in the OBMEP, the world's largest student olympiad, reaching over 18 million students and more than 47,000 schools.\nI have some experience in creating educational materials such as courses and textbooks.\nAt FGV, I have fully embraced teaching opportunities and have two years of experience as a teaching assistant.\nFor two years, I have been part of the Scientific Initiation and Master's Program, meaning that upon completing my undergraduate degree, I will have fulfilled the credits required for a master's degree, with only the thesis remaining.\nIn terms of research, I have been working on Gaussian Processes under the supervision of  Professor Luiz Max de Carvalho.\nFurthermore, since February 2023, I have been temporarily employed as a consultant and research assistant for The World Bank during a 1-year project, where I engaged in data collection and processing, as well as the implementation and adjustment of econometric models using PyTorch.",
+    "summary": "I am an individual with a passion for learning things that can help people.\nSince my early years, I have been keenly interested in technology, programming, and mathematics. At 14, I joined the Federal Center for Technological Education Celso Suckow da Fonseca (CEFET/RJ), where I gained experience as a teaching assistant and project leader even before starting my undergraduate studies.\nDuring my technical course, I focused on structural analysis, computational mechanics, and robotics.\nI was the captain and founding member of the leading drone team in the state of Rio de Janeiro, ranking 8th nationally in the Formula Drone SAE Brazil competition, with about 50 competitors.\nDuring this time, I also participated in several national knowledge olympiads and received numerous awards, notably in the OBMEP, the world's largest student olympiad, reaching over 18 million students and more than 47,000 schools.\nI have some experience in creating educational materials such as courses and textbooks.\nAt FGV, I have fully embraced teaching opportunities and have two years of experience as a teaching assistant.\nFor two years, I have been part of the Scientific Initiation and Master's Program, meaning that upon completing my undergraduate degree, I had already fulfilled the credits required for a master's degree, with only the thesis remaining.\nIn terms of research, I have been working on exact sampling from historical data bayesian models (mainly Power prior) under the supervision of  Professor Luiz Max de Carvalho.\nFurthermore, since February 2023, I have been temporarily employed as a consultant and research assistant for The World Bank, where I engaged in data collection and processing, as well as the implementation and adjustment of econometric models using PyTorch.",
     "location": {
       "address": "190 Praia de Botafogo",
       "postalCode": "22250-900",
@@ -27,7 +27,7 @@
       "position": "Consultant / Research Assistant",
       "url": "https://www.worldbank.org/",
       "startDate": "2023-02-01",
-      "endDate": "2024-04-30",
+      "endDate": "2025-06-30",
       "summary": "I work in developing, applying, improving, and optimizing econometric models for geospatial land use data in Latin America and the Caribbean (LAC). This project is supervised by Professors Marcelo Sant'Anna (FGV EPGE), Rafael Araújo (FGV EESP), and Francisco Costa (University of Delaware). Currently, we are handling a dataset comprising tens of millions of entries, for which I am also responsible for data cleaning and processing. I primarily use PyTorch for scalability with NVIDIA CUDA. This contract is expected to last until April 2024.",
       "highlights": ["PyTorch", "Statistics", "Econometrics"]
     }
@@ -37,15 +37,32 @@
       "institution": "School of Applied Mathematics, Getulio Vargas Foundation, Rio de Janeiro, Brazil",
       "location": "Brazil",
       "url": "https://emap.fgv.br/en",
+      "area": "Applied Mathematics",
+      "studyType": "MS. in Applied Mathematics and Data Science",
+      "startDate": "2025-02-17",
+      "endDate": "today",
+      "score": "A",
+      "courses": ["Real Analysis", "Numerical Analysis", "Computational Statistics", "Causal Inference", "Stochastic Calculus", "Statistical Inference", "Quantitative Biology"]
+    },
+    {
+      "institution": "School of Applied Mathematics, Getulio Vargas Foundation, Rio de Janeiro, Brazil",
+      "location": "Brazil",
+      "url": "https://emap.fgv.br/en",
       "area": "Data Science",
-      "studyType": "BSc. in Data Science and Artificial Intelligence",
+      "studyType": "BS. in Data Science and Artificial Intelligence",
       "startDate": "2021-01-01",
-      "endDate": "Today",
-      "score": "9.2",
-      "courses": ["Real Analysis", "Numerical Analysis", "Computational Statistics", "Causal Inference"]
+      "endDate": "2024-12-06",
+      "score": "9.32",
+      "courses": ["Real Analysis", "Numerical Analysis", "Computational Statistics", "Causal Inference", "Stochastic Calculus", "Statistical Inference", "Quantitative Biology"]
     }
   ],
   "awards": [
+    {
+      "title": "ICIAM Fellowship CNMAC 2024",
+      "date": "2024",
+      "awarder": "International Council for Industrial and Applied Mathematics (ICIAM)",
+      "summary": "Work: 'Shape-contrained function emulation with Gaussian processes'"
+    },
     {
       "title": "Scientific Initiation scholarship",
       "date": "2023",
@@ -152,12 +169,22 @@
     {
       "name": "Prof. Luiz Max Carvalho, PhD.",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "- <a href='https://github.com/maxbiostat'>Homepage</a>; <br> - <a href='mailto:lmax.fgv@gmail.com' target='_blank'> E-mail</a>."
+      "reference": "- <a href='https://github.com/maxbiostat'>Homepage</a>; <br> - <a href='mailto:luiz.fagundes@fgv.br' target='_blank'> E-mail</a>."
     },
     {
       "name": "Prof. Yuri Saporito, PhD.",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "- <a href='https://yurisaporito.com'>Homepage</a>; <br> - <a href='mailto:yuri.saporito@gmail.com' target='_blank'> E-mail</a>."
+      "reference": "- <a href='https://yurisaporito.com'>Homepage</a>; <br> - <a href='mailto:yuri.saporito@fgv.br' target='_blank'> E-mail</a>."
+    },
+    {
+      "name": "Prof. Guilherme T. Goedert, PhD.",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "- <a href='https://gtgoedert.com'>Homepage</a>; <br> - <a href='mailto:guilherme.goedert@fgv.br' target='_blank'> E-mail</a>."
+    },
+    {
+      "name": "Prof. Flávio Bambirra Gonçalves, PhD.",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "- <a href='https://est.ufmg.br/~fbgoncalves/'>Homepage</a>; <br> - <a href='mailto:fbgoncalves@est.ufmg.br' target='_blank'> E-mail</a>."
     }
   ],
   "projects": [
@@ -166,7 +193,7 @@
       "summary": "The use of Gaussian processes is a powerful technique for estimating functions which cannot be evaluated across their entire domain, allowing for the quantification of estimation uncertainties, especially when following the Bayesian paradigm. However, when we have prior knowledge about the shape properties of a function, especially its derivatives, it is possible to enhance the quality of our estimates. This project focuses on the development and application of shape-constrained Gaussian processes to improve function estimation. Supervised by Professor Luiz Max de Carvalho, PhD.",
       "highlights": ["Gaussian processes", "Bayesian statistics", "Shape-constrained estimation"],
       "startDate": "2023-10",
-      "endDate": "Today",
+      "endDate": "2024-12",
       "url": "https://github.com/adamesalles/shape-constrained-gaussian-processes"
     },
     {
