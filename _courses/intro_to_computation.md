@@ -8,7 +8,7 @@ category: 2022
 related_publications: false
 ---
 
-The full course is available on [this page](https://adamesalles.github.io/edu/introcomp/home/) (in Portuguese).
+The full course is available on [this page](https://eadame.ovh/edu/2022/introcomp/home/) (in Portuguese).
 
 Staff:
 
