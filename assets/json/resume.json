@@ -4,8 +4,8 @@
     "label": "Data Scientist",
     "image": "",
     "email": "eadamesalles@gmail.com",
-    "url": "https://adamesalles.github.io",
-    "summary": "I am an individual with a passion for learning things that can help people.\nSince my early years, I have been keenly interested in technology, programming, and mathematics. At 14, I joined the Federal Center for Technological Education Celso Suckow da Fonseca (CEFET/RJ), where I gained experience as a teaching assistant and project leader even before starting my undergraduate studies.\nDuring my technical course, I focused on structural analysis, computational mechanics, and robotics.\nI was the captain and founding member of the leading drone team in the state of Rio de Janeiro, ranking 8th nationally in the Formula Drone SAE Brazil competition, with about 50 competitors.\nDuring this time, I also participated in several national knowledge olympiads and received numerous awards, notably in the OBMEP, the world's largest student olympiad, reaching over 18 million students and more than 47,000 schools.\nI have some experience in creating educational materials such as courses and textbooks.\nAt FGV, I have fully embraced teaching opportunities and have two years of experience as a teaching assistant.\nFor two years, I have been part of the Scientific Initiation and Master's Program, meaning that upon completing my undergraduate degree, I had already fulfilled the credits required for a master's degree, with only the thesis remaining.\nIn terms of research, I have been working on exact sampling from historical data bayesian models (mainly Power prior) under the supervision of  Professor Luiz Max de Carvalho.\nFurthermore, since February 2023, I have been temporarily employed as a consultant and research assistant for The World Bank, where I engaged in data collection and processing, as well as the implementation and adjustment of econometric models using PyTorch.",
+    "url": "https://eadame.ovh",
+    "summary": "During my technical training in Industrial Mechanics, I earned distinctions in national math olympiads, notably OBMEP—the world's largest, with over 18 million students. These achievements deepened my passion for mathematics and led to a full scholarship through the CDMC Talent Program.\nAt FGV, I have embraced teaching opportunities, accumulating four years of experience as a teaching assistant. I also joined the Scientific Initiation and Master's Track Program early in my undergraduate studies, completing all master's-level coursework by graduation, with only the thesis remaining.\nMy current research focuses on exact Markov Chain Monte Carlo methods for the Normalized Power Prior, under the supervision of Prof. Luiz Max de Carvalho (FGV EMAp) and co-supervision of Prof. Flávio Bambirra (UFMG). I also have been working with uncertainty quantification for black-box generative models.\nFrom February 2023 to June 2025, I worked as a consultant for The World Bank, where I supported data collection and pre-processing, as well as the development and refinement of econometric models using PyTorch.",
     "location": {
       "address": "190 Praia de Botafogo",
       "postalCode": "22250-900",
@@ -28,7 +28,7 @@
       "url": "https://www.worldbank.org/",
       "startDate": "2023-02-01",
       "endDate": "2025-06-30",
-      "summary": "I work in developing, applying, improving, and optimizing econometric models for geospatial land use data in Latin America and the Caribbean (LAC). This project is supervised by Professors Marcelo Sant'Anna (FGV EPGE), Rafael Araújo (FGV EESP), and Francisco Costa (University of Delaware). Currently, we are handling a dataset comprising tens of millions of entries, for which I am also responsible for data cleaning and processing. I primarily use PyTorch for scalability with NVIDIA CUDA. This contract is expected to last until April 2024.",
+      "summary": "I worked in developing, applying, fitting, improving, and optimizing econometric models for geospatial land use data in Latin America and the Caribbean (LAC). I handled an encrypted dataset comprising tens of millions of entries, for which I was also responsible for data cleaning and processing, focusing on scalability with PyTorch and Nvidia CUDA. This assignment resulted in a submission for the Nature Sustainability journal.",
       "highlights": ["PyTorch", "Statistics", "Econometrics"]
     }
   ],
@@ -134,11 +134,6 @@
       "language": "Spanish",
       "fluency": "Intermediate",
       "icon": ""
-    },
-    {
-      "language": "Mandarin Chinese",
-      "fluency": "Basic",
-      "icon": ""
     }
   ],
   "interests": [
@@ -188,6 +183,14 @@
     }
   ],
   "projects": [
+    {
+      "name": "Open Labeller for Iterative Machine learning",
+      "summary": "OLIM is a user-friendly labeling interface designed for individuals without prior data science knowledge. Its primary use case is to assist in labeling patient-related data extracted from medical texts. Future versions aim to support a wider range of data formats and domains.",
+      "highlights": ["Active Learning", "Natural Language Processing", "Machine Learning"],
+      "startDate": "2024-10",
+      "endDate": "Today",
+      "url": "https://nanogennari.gitlab.io/olim/"
+    },
     {
       "name": "Shape-constrained Gaussian Processes",
       "summary": "The use of Gaussian processes is a powerful technique for estimating functions which cannot be evaluated across their entire domain, allowing for the quantification of estimation uncertainties, especially when following the Bayesian paradigm. However, when we have prior knowledge about the shape properties of a function, especially its derivatives, it is possible to enhance the quality of our estimates. This project focuses on the development and application of shape-constrained Gaussian processes to improve function estimation. Supervised by Professor Luiz Max de Carvalho, PhD.",

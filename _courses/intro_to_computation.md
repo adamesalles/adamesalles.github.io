@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Computation
+title: Introduction to Computing
 description: This undergraduate-level course introduces the basic concepts of computation, including algorithms, data structures, and complexity theory. The course also covers the basics of programming in Python.
 # img: assets/img/12.jpg
 importance: 7

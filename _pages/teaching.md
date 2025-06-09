@@ -8,6 +8,8 @@ display_categories: [2024, 2023, 2022]
 nav_order: 3
 ---
 
+Please, refer to [this link](https://eadame.ovh/edu) for the lecture notes (in Portuguese) for the courses I teach.
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

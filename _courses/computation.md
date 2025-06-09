@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Computation
+title: Computing
 description: This undergraduate-level course introduces the basic concepts of statistical inference, including estimation, hypothesis testing, and confidence intervals. The course also covers Bayesian inference and linear regression.
 # img: assets/img/12.jpg
 importance: 3
