@@ -25,7 +25,13 @@ Brief description of the poster content.
 
 National event held in Rio de Janeiro, RJ, Brazil.
 
-#### Bayesian shape-constrained function emulation with Gaussian processes, 7th Latin-American Meeting on Bayesian Statistics (COBAL)
+#### Accelerating medical curation via LLM labelling, 2nd International Colloquium on Mathematical Modelling in Epidemiology (ICMME)
+
+2025 - [🔗 Info](https://eventos.fgv.br/icmme) - [📄 Poster](https://drive.google.com/file/d/1v07bjNi4d1FZdum_TpumXP7EWywUp-OC/view?usp=share_link) - [💾 Repository](https://gitlab.com/nanogennari/olim)
+
+International event held in Rio de Janeiro, RJ, Brazil.
+
+#### Bayesian shape-constrained function emulation with Gaussian processes, 7th Latin-American Congress on Bayesian Statistics (COBAL)
 
 2024 - [🔗 Info](https://www.even3.com.br/cobal-ebeb-2024-406344/) - [📄 Poster](https://drive.google.com/file/d/1f-dG8pYF4davNv-z_l47t7rDP0i-j05O/view?usp=sharing) - [📚 Supplementary Material](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adamesalles/shape-constrained-gaussian-processes/main/docs/scgp.pdf) - [💾 Repository](https://github.com/adamesalles/shape-constrained-gaussian-processes)
 
