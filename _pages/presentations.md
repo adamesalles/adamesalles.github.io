@@ -21,9 +21,7 @@ Brief description of the poster content.
 
 #### Image Super-Resolution with Guarantees via Conformalized Generative Models, EurIPS
 
-2025 - [🔗 Info](https://eurips.cc/conference/posters/#poster:117061) - [📄 Poster](https://drive.google.com/file/d/1AgVYZ_pa6OknnaIH42Rc_r8kuRhXY0_q/view?usp=sharing) - [📚 Paper](https://arxiv.org/abs/2502.09664)
-
-[NeurIPS Page](https://neurips.cc/virtual/2025/loc/san-diego/poster/117061)
+2025 - [🔗 Info](https://eurips.cc/conference/posters/#poster:117061) - [📄 Poster](https://drive.google.com/file/d/1AgVYZ_pa6OknnaIH42Rc_r8kuRhXY0_q/view?usp=sharing) - [📚 Paper](https://arxiv.org/abs/2502.09664) - [ℹ️ NeurIPS Page](https://neurips.cc/virtual/2025/loc/san-diego/poster/117061)
 
 International event held in Copenhagen, Denmark.
 
