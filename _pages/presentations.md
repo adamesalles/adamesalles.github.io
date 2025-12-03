@@ -19,6 +19,14 @@ Year - [🔗 Info](link-to-conference) - [📄 Poster](link-to-poster-pdf)
 Brief description of the poster content.
 -->
 
+#### Image Super-Resolution with Guarantees via Conformalized Generative Models, EurIPS
+
+2025 - [🔗 Info](https://eurips.cc/conference/posters/#poster:117061) - [📄 Poster](https://drive.google.com/file/d/1AgVYZ_pa6OknnaIH42Rc_r8kuRhXY0_q/view?usp=sharing) - [📚 Paper](https://arxiv.org/abs/2502.09664)
+
+[NeurIPS Page](https://neurips.cc/virtual/2025/loc/san-diego/poster/117061)
+
+International event held in Copenhagen, Denmark.
+
 #### On Exact MCMC methods for the normalised power prior, 44th National Congress of Applied and Computational Mathematics (CNMAC)
 
 2025 - [🔗 Info](https://www.cnmac.org.br/novo/index.php/CNMAC/conteudo/2025/84/167) - [📄 Poster](https://drive.google.com/file/d/1qRRpJezZqsrSxH7sy0m1j_1tJiaFb1ws/view?usp=share_link) - [📚 References](https://drive.google.com/file/d/1OuVXeYTewrG0V-NkTIXV6ts9j9--MGeG/view?usp=share_link)
