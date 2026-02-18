@@ -77,6 +77,10 @@ Brief description of the talk or what was presented.
 
 ## **Courses**
 
+#### Intro to Neural Networks
+
+2025 - [🔗 Info](https://www.youtube.com/playlist?list=PLh-8fk3VvocCu0I9ELIlBUQeRePmiIVTx)
+
 #### Introduction to HTML and CSS
 
 2024 - [🔗 Info](https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/desenvolvimento-de-sistemas-web-css-e-html)
