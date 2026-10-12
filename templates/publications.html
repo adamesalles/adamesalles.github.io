@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ trans(key="publications", lang=lang) }} · {{ config.title }}{% endblock %}
+{% block content %}
+<h2>{{ trans(key="publications", lang=lang) }}</h2>
+{% set bib = load_data(path="data/papers.bib", format="bibtex") %}
+<ul>
+{% for p in bib.bibliographies | sort(attribute="tags.year") | reverse %}
+<li>{{ <citation p={p} lang={lang} /> }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

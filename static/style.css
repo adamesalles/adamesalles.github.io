@@ -1,0 +1,16 @@
+/* Deliberately minimal: browser defaults plus a readable column. */
+:root { color-scheme: light dark; }
+body { max-width: 46em; margin: 2.5em auto; padding: 0 3em; font-family: serif; line-height: 1.5; }
+nav, footer { font-size: 0.95em; }
+nav a[aria-current] { color: inherit; text-decoration: none; font-weight: bold; }
+figure.portrait { float: right; width: 15em; margin: 0 0 0.75em 2.5em; text-align: center; }
+figure.portrait img { width: 100%; height: auto; display: block; }
+figure.portrait figcaption { margin-top: 0.3em; font-size: 0.9em; }
+.date { font-family: monospace; }
+li { margin-bottom: 0.4em; }
+footer { color: GrayText; }
+@media (max-width: 40em) { body { padding: 0 1.25em; margin: 1.25em auto; } figure.portrait { float: none; width: 100%; max-width: 15em; margin: 0 auto 1em; } }
+a:visited { color: LinkText; }
+.about { text-align: justify; hyphens: auto; }
+.desc { font-size: 0.85em; font-style: italic; margin: 0.2em 0; }
+address { font-style: normal; }

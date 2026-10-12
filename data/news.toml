@@ -1,0 +1,62 @@
+# Add new items at the top (order does not matter; they are sorted by date).
+# Text is Markdown. Provide "en" and "pt-br".
+
+[[news]]
+date = 2026-07-10
+en = "I'm now a Master, just like Yoda! After passing my viva, I officially hold a MSc in Applied Mathematics from the [School of Applied Mathematics at FGV](https://emap.fgv.br/en/)! It is available [here](https://repositorio.fgv.br/entities/publication/ec7c2dd0-56e2-493b-90c3-763bd90cfc9a)."
+"pt-br" = "Agora sou Mestre, como o Yoda! Depois de passar na defesa, sou oficialmente mestre em Matemática Aplicada pela [Escola de Matemática Aplicada da FGV](https://emap.fgv.br/)! A dissertação está disponível [aqui](https://repositorio.fgv.br/entities/publication/ec7c2dd0-56e2-493b-90c3-763bd90cfc9a)."
+
+[[news]]
+date = 2026-03-04
+en = "Starting in September, I'm going to be a PhD student in Statistics at the [School of Mathematics at The University of Edinburgh](https://www.maths.ed.ac.uk/), under the supervision of Prof. [Jordan Richards](https://jbrich95.github.io) and Prof. [Miguel de Carvalho](https://webhomes.maths.ed.ac.uk/~mdecarv/)."
+"pt-br" = "A partir de setembro, serei estudante de doutorado em Estatística na [School of Mathematics da University of Edinburgh](https://www.maths.ed.ac.uk/), sob orientação do Prof. [Jordan Richards](https://jbrich95.github.io) e do Prof. [Miguel de Carvalho](https://webhomes.maths.ed.ac.uk/~mdecarv/)."
+
+[[news]]
+date = 2026-01-03
+en = "With more than 4,500 registered applicants, I was happily shortlisted for the [ELLIS PhD Program](https://ellis.eu)."
+"pt-br" = "Com mais de 4.500 candidatos inscritos, fui selecionado para a lista final do [ELLIS PhD Program](https://ellis.eu)."
+
+[[news]]
+date = 2025-12-03
+en = "I'm attending EurIPS in Copenhagen, Denmark, starting today! I'm going to present [my work](https://arxiv.org/abs/2502.09664) tomorrow."
+"pt-br" = "Estou no EurIPS, em Copenhague, Dinamarca, a partir de hoje! Vou apresentar [meu trabalho](https://arxiv.org/abs/2502.09664) amanhã."
+
+[[news]]
+date = 2025-09-18
+en = "I'm thrilled to announce that [my paper on Conformal Super-Resolution](https://arxiv.org/abs/2502.09664) has been accepted to NeurIPS 2025."
+"pt-br" = "Estou muito feliz em anunciar que [meu artigo sobre Conformal Super-Resolution](https://arxiv.org/abs/2502.09664) foi aceito no NeurIPS 2025."
+
+[[news]]
+date = 2025-03-30
+en = "Today, during my BSc Graduation Ceremony, I graduated with honors and awarded the Undergraduate Research Distinction—granted to only one student per graduating class."
+"pt-br" = "Hoje, na cerimônia de formatura da graduação, recebi o [Prêmio FGV EMAp de Excelência em Pesquisa](https://emap.fgv.br/noticias/fgv-emap-celebra-graduacao-de-alunos-dos-cursos-de-ciencia-de-dados-e-inteligencia), concedida a apenas um estudante por turma."
+
+[[news]]
+date = 2025-03-17
+en = "Just started my Master's program in Applied Mathematics, though I have already finished the required coursework."
+"pt-br" = "Acabei de começar o mestrado em Matemática Aplicada, embora eu já tenha concluído as disciplinas obrigatórias durante a graduação."
+
+[[news]]
+date = 2025-02-19
+en = "Now, I officially hold a BSc in Data Science from the [School of Applied Mathematics at FGV](https://emap.fgv.br/en/)!"
+"pt-br" = "Agora sou oficialmente bacharel em Ciência de Dados pela [Escola de Matemática Aplicada da FGV](https://emap.fgv.br/)!"
+
+[[news]]
+date = 2025-02-12
+en = "My preprint on Conformalized Generative Models is now available on [arXiv](https://arxiv.org/abs/2502.09664)!"
+"pt-br" = "Meu preprint sobre Conformalized Generative Models já está disponível no [arXiv](https://arxiv.org/abs/2502.09664)!"
+
+[[news]]
+date = 2024-12-01
+en = "The 7th Latin American Congress on Bayesian Statistics (VII COBAL) is now happening in Belo Horizonte, MG, and I'm proud to be a part of it with a poster presentation!"
+"pt-br" = "O 7º Congresso Latino-Americano de Estatística Bayesiana (VII COBAL) está acontecendo em Belo Horizonte, MG, e tenho orgulho de participar com a apresentação de um pôster!"
+
+[[news]]
+date = 2024-10-30
+en = "Just finished my final report for my undergraduate thesis, which was focused on [Bayesian shape-constrained curve-fitting with Gaussian processes](https://github.com/adamesalles/shape-constrained-gaussian-processes)! I'm very excited to move forward to my next project."
+"pt-br" = "Acabei de finalizar o relatório final do meu trabalho de conclusão de curso, sobre [ajuste de curvas bayesiano com restrições de forma via processos gaussianos](https://github.com/adamesalles/shape-constrained-gaussian-processes)! Estou muito animado para seguir para o próximo projeto."
+
+[[news]]
+date = 2024-07-03
+en = "I was just awarded the [ICIAM FELLOWSHIP CNMAC 2024](https://www.cnmac.org.br/novo/index.php/CNMAC/conteudo/2024/78/159)! I am honored to receive this recognition by the International Council for Industrial and Applied Mathematics (ICIAM)."
+"pt-br" = "Acabei de receber a [ICIAM FELLOWSHIP CNMAC 2024](https://www.cnmac.org.br/novo/index.php/CNMAC/conteudo/2024/78/159)! Fico honrado com este reconhecimento do International Council for Industrial and Applied Mathematics (ICIAM)."

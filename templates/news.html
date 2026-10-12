@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ trans(key="news", lang=lang) }} · {{ config.title }}{% endblock %}
+{% block content %}
+<h2>{{ trans(key="news", lang=lang) }}</h2>
+<dl>
+{% set _d = load_data(path="data/news.toml") %}{% for n in _d.news | sort(attribute="date") | reverse %}
+<dt class="date">{{ n.date | date(format="%Y-%m-%d") }}</dt>
+<dd>{{ n[lang] | markdown(inline=true) | safe }}</dd>
+{% endfor %}
+</dl>
+{% endblock %}

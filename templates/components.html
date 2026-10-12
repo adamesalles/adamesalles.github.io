@@ -1,0 +1,20 @@
+{% component linklist(items, lang) %}{% for l in items %}{% if not loop.first %} · {% endif %}<a href="{{ l.url }}">{% if l.label == "NeurIPS" %}NeurIPS{% else %}{{ trans(key=l.label, lang=lang) }}{% endif %}</a>{% endfor %}{% endcomponent linklist %}
+
+{% component citation(p, lang) %}
+{%- set t = p.tags -%}
+{%- set parts = [x | split(pat=",") for x in t.author | split(pat=" and ")] -%}
+{%- set authors = [(x[1] | trim ~ " " ~ x[0] | trim) if x | length == 2 else (x[0] | trim) for x in parts] -%}
+{{ authors | join(sep=", ") }}. <strong>{{ t.title }}</strong>.
+{% if p.entry_type == "article" and t.journal %}<em>{{ t.journal }}</em>{% if t.volume %} {{ t.volume }}{% endif %}{% if t.number %}({{ t.number }}){% endif %}{% if t.pages %}:{{ t.pages | replace(from="--", to="–") | replace(from="-", to="–") }}{% endif %}, {{ t.year }}.
+{%- elif t.booktitle %}{{ trans(key="in", lang=lang) }} <em>{{ t.booktitle }}</em>{% if t.series %} ({{ t.series }}){% endif %}{% if t.pages %}, pp. {{ t.pages | replace(from="--", to="–") | replace(from="-", to="–") }}{% endif %}, {{ t.year }}.
+{%- elif t.school %}{{ "Master's thesis" if p.entry_type == "mastersthesis" else "PhD thesis" if p.entry_type == "phdthesis" else "Thesis" }}, {{ t.school }}, {{ t.year }}.
+{%- elif t.eprint %}arXiv:{{ t.eprint }}{% if t.primaryclass %} [{{ t.primaryclass }}]{% endif %}, {{ t.year }}.
+{%- else %}{% if t.howpublished %}{{ t.howpublished }}, {% elif t.publisher %}{{ t.publisher }}, {% endif %}{{ t.year }}.
+{%- endif %}
+{%- set links = [] -%}
+{%- if t.doi -%}{%- set links = [...links, {"label": "doi", "url": "https://doi.org/" ~ t.doi}] -%}{%- elif t.url and not t.eprint -%}{%- set links = [...links, {"label": "url", "url": t.url}] -%}{%- endif -%}
+{%- if t.eprint -%}{%- set links = [...links, {"label": "arxiv", "url": "https://arxiv.org/abs/" ~ t.eprint}] -%}{%- endif -%}
+{%- if t.pdf -%}{%- set links = [...links, {"label": "pdf", "url": t.pdf}] -%}{%- endif -%}
+{%- if t.html -%}{%- set links = [...links, {"label": "html", "url": t.html}] -%}{%- endif -%}
+{%- if links | length > 0 %}<br>{{ <linklist items={links} lang={lang} /> }}{% endif %}
+{% endcomponent citation %}

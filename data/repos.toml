@@ -1,0 +1,23 @@
+[[repo]]
+name = "adamesalles/shape-constrained-gaussian-processes"
+language = "Python"
+en = "Scientific initiation project “Shape-constrained Gaussian Processes”, supervised by Prof. Luiz Max Carvalho."
+"pt-br" = "Projeto de iniciação científica “Processos Gaussianos com Restrições de Forma”, orientado pelo Prof. Luiz Max Carvalho."
+
+[[repo]]
+name = "adamesalles/homicide-rate-rj"
+language = "Python"
+en = "A Bayesian approach to the homicide rate in the city of Rio de Janeiro by administrative region, through Social Progress Index indicators."
+"pt-br" = "Uma abordagem bayesiana para a taxa de homicídios na cidade do Rio de Janeiro por região administrativa, via indicadores do Índice de Progresso Social."
+
+[[repo]]
+name = "adamesalles/gp-visual-tool"
+language = "Svelte"
+en = "Interactive visual tool for Gaussian processes."
+"pt-br" = "Ferramenta visual interativa para processos gaussianos."
+
+[[repo]]
+name = "adamesalles/latex-beamer-emap"
+language = "TeX"
+en = "A LaTeX Beamer template for students and faculty at FGV EMAp."
+"pt-br" = "Um modelo de LaTeX Beamer para estudantes e professores da FGV EMAp."

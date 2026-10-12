@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ trans(key="repos", lang=lang) }} · {{ config.title }}{% endblock %}
+{% block content %}
+<h2>{{ trans(key="repos", lang=lang) }}</h2>
+<p>{{ trans(key="repos_intro", lang=lang) }}</p>
+<ul>
+{% set _d = load_data(path="data/repos.toml") %}{% for r in _d.repo %}
+<li><a href="https://github.com/{{ r.name }}"><strong>{{ r.name }}</strong></a> ({{ r.language }})<br>{{ r[lang] }}</li>
+{% endfor %}
+</ul>
+<p><a href="https://github.com/{{ config.extra.github }}?tab=repositories">github.com/{{ config.extra.github }}</a></p>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+{% set prefix = "" %}{% if lang != config.default_language %}{% set prefix = "/" ~ lang %}{% endif %}
+<figure class="portrait">
+<img src="/img/prof_pic.jpg" alt="Eduardo Adame Salles" width="480" height="480">
+<figcaption><strong>eduardo.adame [at] ed.ac.uk</strong></figcaption>
+</figure>
+<div class="about">
+{{ section.content | safe }}
+</div>
+
+<h3>{{ trans(key="selected_publications", lang=lang) }}</h3>
+<ul>
+{% set _d = load_data(path="data/papers.bib", format="bibtex") %}{% for p in _d.bibliographies %}{% if p.tags.selected == "true" %}
+<li>{{ <citation p={p} lang={lang} /> }}</li>
+{% endif %}{% endfor %}
+</ul>
+<p><a href="{{ prefix }}/publications/">{{ trans(key="all_publications", lang=lang) }} →</a></p>
+
+<h3>{{ trans(key="latest_news", lang=lang) }}</h3>
+<dl>
+{% set _d = load_data(path="data/news.toml") %}{% for n in (_d.news | sort(attribute="date") | reverse)[:5] %}
+<dt class="date">{{ n.date | date(format="%Y-%m-%d") }}</dt>
+<dd>{{ n[lang] | markdown(inline=true) | safe }}</dd>
+{% endfor %}
+</dl>
+<p><a href="{{ prefix }}/news/">{{ trans(key="all_news", lang=lang) }} →</a></p>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ trans(key="teaching", lang=lang) }} · {{ config.title }}{% endblock %}
+{% block content %}
+<h2>{{ trans(key="teaching", lang=lang) }}</h2>
+<p>{{ trans(key="teaching_intro", lang=lang) | safe }}</p>
+{% set _d = load_data(path="data/courses.toml") %}{% set courses = _d.course %}
+{% set years = [c.year for c in courses] | unique | sort | reverse %}
+{% for y in years %}
+<h3>{{ y }}</h3>
+<ul>
+{% for c in [c for c in courses if c.year == y] | sort(attribute="term_order") %}
+<li><strong>{{ c.title[lang] }}</strong>{% if c.term[lang] %} ({{ c.term[lang] | lower }}){% endif %}, {{ trans(key=c.level, lang=lang) }}.
+{{ trans(key="role_ta", lang=lang) }}, {{ trans(key="with", lang=lang) }} {{ c.instructors | join(sep=", ") }}. {{ trans(key="inst_" ~ c.inst, lang=lang) }}.
+{% if c.desc %}<div class="desc">{{ c.desc[lang] }}</div>{% endif %}
+{% if c.links %}{{ <linklist items={c.links} lang={lang} /> }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% endblock %}

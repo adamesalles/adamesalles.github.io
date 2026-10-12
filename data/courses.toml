@@ -1,0 +1,125 @@
+# One entry per course taught. term_order: 1 summer, 2 autumn (1st semester), 3 spring (2nd), 9 none. `inst`: 0 = FGV EMAp, 1 = FGV EPGE.
+# Links use translation keys from config.toml (site, repo, exercises, exams, ...).
+
+[[course]]
+year = 2025
+term = { en = "Autumn", "pt-br" = "primeiro semestre" }
+term_order = 2
+title = { en = "Introduction to Computing", "pt-br" = "Introdução à Computação" }
+level = "undergraduate"
+instructors = ["Flávio Codeço Coelho", "Walter Wagner Sande"]
+inst = 0
+links = [{ label = "site", url = "https://eadame.ovh/edu/2025/introcomp/home/" }]
+desc = { en = "Algorithms, data structures, complexity, and the basics of Python. Notes in Portuguese.", "pt-br" = "Algoritmos, estruturas de dados, complexidade e noções de Python." }
+
+[[course]]
+year = 2025
+term = { en = "Summer", "pt-br" = "verão" }
+term_order = 1
+title = { en = "Multivariate Calculus", "pt-br" = "Cálculo Multivariado" }
+level = "undergraduate"
+instructors = ["Sônia Durães"]
+inst = 0
+desc = { en = "Partial derivatives, multiple integrals, vector calculus, and some linear algebra.", "pt-br" = "Derivadas parciais, integrais múltiplas, cálculo vetorial e noções de álgebra linear." }
+
+[[course]]
+year = 2024
+term = { en = "Autumn", "pt-br" = "primeiro semestre" }
+term_order = 2
+title = { en = "Statistical Modelling", "pt-br" = "Modelagem Estatística" }
+level = "undergraduate"
+instructors = ["Luiz Max de Carvalho"]
+inst = 0
+links = [{ label = "repo", url = "https://github.com/maxbiostat/stats_modelling" }]
+desc = { en = "Linear, logistic and generalised linear models, estimation and diagnostics, plus Bayesian statistics. Materials in Portuguese.", "pt-br" = "Regressão linear, logística e modelos lineares generalizados, estimação e diagnóstico, além de estatística bayesiana." }
+
+[[course]]
+year = 2024
+term = { en = "Spring", "pt-br" = "segundo semestre" }
+term_order = 3
+title = { en = "Numerical Analysis and Simulation", "pt-br" = "Análise Numérica e Simulação" }
+level = "graduate"
+instructors = ["Hugo de la Cruz Cancino"]
+inst = 0
+desc = { en = "Numerical linear algebra and nonlinear equations, interpolation, differentiation and integration, ODEs and SDEs.", "pt-br" = "Álgebra linear numérica e equações não lineares, interpolação, diferenciação e integração, EDOs e EDEs." }
+
+[[course]]
+year = 2024
+term = { en = "Summer", "pt-br" = "verão" }
+term_order = 1
+title = { en = "Introduction to Real Analysis", "pt-br" = "Introdução à Análise Real" }
+level = "graduate"
+instructors = ["Philip Thompson"]
+inst = 0
+desc = { en = "Sequences, series, continuity, differentiability and measure theory; the Master's admission course.", "pt-br" = "Sequências, séries, continuidade, diferenciabilidade e teoria da medida; curso de admissão ao mestrado." }
+
+[[course]]
+year = 2024
+term = { en = "Summer", "pt-br" = "verão" }
+term_order = 1
+title = { en = "Multivariate Calculus", "pt-br" = "Cálculo Multivariado" }
+level = "undergraduate"
+instructors = ["Sônia Durães"]
+inst = 0
+desc = { en = "Partial derivatives, multiple integrals, and some linear algebra.", "pt-br" = "Derivadas parciais, integrais múltiplas e noções de álgebra linear." }
+
+[[course]]
+year = 2024
+term = { en = "", "pt-br" = "" }
+term_order = 9
+title = { en = "Computing", "pt-br" = "Computação" }
+level = "undergraduate"
+instructors = ["Walter Wagner Sande", "Bruno Cuconato Claro"]
+inst = 1
+
+[[course]]
+year = 2023
+term = { en = "Autumn", "pt-br" = "primeiro semestre" }
+term_order = 2
+title = { en = "Data Science Techniques and Algorithms", "pt-br" = "Técnicas e Algoritmos de Ciência de Dados" }
+level = "undergraduate"
+instructors = ["Alberto Paccanaro", "Ruben Jimenez"]
+inst = 0
+desc = { en = "Supervised and unsupervised learning and the most common machine learning algorithms.", "pt-br" = "Aprendizado supervisionado e não supervisionado e os algoritmos mais comuns de aprendizado de máquina." }
+
+[[course]]
+year = 2023
+term = { en = "Spring", "pt-br" = "segundo semestre" }
+term_order = 3
+title = { en = "Statistical Inference", "pt-br" = "Inferência Estatística" }
+level = "undergraduate"
+instructors = ["Philip Thompson"]
+inst = 0
+links = [{ label = "site", url = "https://adamesalles.github.io/statistical-inference" }, { label = "exercises", url = "https://github.com/adamesalles/statistical-inference/tree/main/exercises" }, { label = "exams", url = "https://github.com/adamesalles/statistical-inference/tree/main/exams" }]
+desc = { en = "Estimation, hypothesis testing, confidence intervals, Bayesian inference and linear regression. Site in Portuguese.", "pt-br" = "Estimação, testes de hipóteses, intervalos de confiança, inferência bayesiana e regressão linear. Site em português." }
+
+[[course]]
+year = 2023
+term = { en = "Summer", "pt-br" = "verão" }
+term_order = 1
+title = { en = "Multivariate Calculus", "pt-br" = "Cálculo Multivariado" }
+level = "undergraduate"
+instructors = ["Sônia Durães"]
+inst = 0
+desc = { en = "Partial derivatives, multiple integrals, vector calculus, and some linear algebra.", "pt-br" = "Derivadas parciais, integrais múltiplas, cálculo vetorial e noções de álgebra linear." }
+
+[[course]]
+year = 2022
+term = { en = "Spring", "pt-br" = "segundo semestre" }
+term_order = 3
+title = { en = "Multivariate Calculus", "pt-br" = "Cálculo Multivariado" }
+level = "undergraduate"
+instructors = ["Maria Izabel Camacho"]
+inst = 0
+desc = { en = "Partial derivatives, multiple integrals, vector calculus, and some linear algebra.", "pt-br" = "Derivadas parciais, integrais múltiplas, cálculo vetorial e noções de álgebra linear." }
+
+[[course]]
+year = 2022
+term = { en = "Autumn", "pt-br" = "primeiro semestre" }
+term_order = 2
+title = { en = "Introduction to Computing", "pt-br" = "Introdução à Computação" }
+level = "undergraduate"
+instructors = ["Rafael de Pinho"]
+inst = 0
+links = [{ label = "site", url = "https://eadame.ovh/edu/2022/introcomp/home/" }]
+desc = { en = "Algorithms, data structures, complexity, and the basics of Python. Notes in Portuguese.", "pt-br" = "Algoritmos, estruturas de dados, complexidade e noções de Python." }

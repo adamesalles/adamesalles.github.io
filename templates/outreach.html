@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ trans(key="outreach", lang=lang) }} · {{ config.title }}{% endblock %}
+{% block content %}
+<h2>{{ trans(key="outreach", lang=lang) }}</h2>
+<p>{{ trans(key="outreach_intro", lang=lang) }}</p>
+{% set _d = load_data(path="data/outreach.toml") %}{% set items = _d.item %}
+{% for kind in ["poster", "talk", "course"] %}
+<h3>{{ trans(key=kind ~ "s", lang=lang) }}</h3>
+<ul>
+{% for it in [i for i in items if i.kind == kind] %}
+<li><strong>{% if lang == "pt-br" and it.title_pt %}{{ it.title_pt }}{% else %}{{ it.title }}{% endif %}</strong>{% if it.venue %}, {{ it.venue }}{% endif %}. {{ it.year }}.
+{% if it.where %}<br>{{ it.where[lang] }}{% endif %}
+<br>{{ <linklist items={it.links} lang={lang} /> }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% endblock %}

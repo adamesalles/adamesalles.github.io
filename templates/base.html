@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ config.title }}{% endblock %}</title>
+<meta name="description" content="{{ config.description }}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+<link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+</head>
+<body>
+{% set prefix = "" %}{% if lang != config.default_language %}{% set prefix = "/" ~ lang %}{% endif %}
+<header>
+<h1><a href="{{ prefix }}/" style="color:inherit;text-decoration:none">Eduardo <u>Adame</u> Salles</a></h1>
+<nav>
+{%- set items = [["", "about"], ["/cv/", "cv"], ["/publications/", "publications"], ["/teaching/", "teaching"], ["/outreach/", "outreach"], ["/repositories/", "repos"], ["/news/", "news"]] -%}
+{% for it in items %}
+<a href="{{ prefix }}{{ it[0] }}{% if it[0] == '' %}/{% endif %}"{% if current_path == prefix ~ it[0] or current_path == prefix ~ it[0] ~ "/" or (it[0] == "" and current_path == prefix ~ "/") %} aria-current="page"{% endif %}>{{ trans(key=it[1], lang=lang) }}</a>{% if not loop.last %} · {% endif %}
+{% endfor %}
+&nbsp;|&nbsp;
+{%- set tr = section.translations if section is defined else [] %}
+{% if lang == "en" %}<strong>en</strong>{% else %}{% for t in tr %}{% if t.lang == "en" %}<a href="{{ t.permalink }}" hreflang="en">en</a>{% endif %}{% endfor %}{% endif %} ·
+{% if lang == "pt-br" %}<strong>pt-br</strong>{% else %}{% for t in tr %}{% if t.lang == "pt-br" %}<a href="{{ t.permalink }}" hreflang="pt-br">pt-br</a>{% endif %}{% endfor %}{% endif %}
+</nav>
+</header>
+<hr>
+<main>
+{% block content %}{% endblock %}
+</main>
+<hr>
+<footer>
+<address>University of Edinburgh<br>James Clerk Maxwell Building<br>Peter Guthrie Tait Road<br>Edinburgh<br>EH9 3FD</address>
+<p>
+<a href="https://github.com/{{ config.extra.github }}">GitHub</a> ·
+<a href="https://scholar.google.com/citations?user={{ config.extra.scholar }}">Google Scholar</a> ·
+<a href="https://orcid.org/{{ config.extra.orcid }}">ORCID</a> ·
+<a href="https://www.linkedin.com/in/{{ config.extra.linkedin }}">LinkedIn</a> ·
+<a href="https://x.com/{{ config.extra.x }}">X</a> ·
+<a href="mailto:{{ config.extra.email }}">email</a>
+<br>{{ trans(key="footer", lang=lang) }} <a href="{{ config.extra.repo_url }}">source</a>
+</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+# kind = "poster" | "talk" | "course". Order does not matter (sorted by year, then file order).
+# Link "label" must be a translation key from config.toml (info, poster, paper, slides, repo, refs, supp, ...).
+# "where" is the free-text line under the entry, per language.
+
+[[item]]
+kind = "poster"
+year = 2025
+title = "Image Super-Resolution with Guarantees via Conformalized Generative Models"
+venue = "EurIPS"
+links = [
+  { label = "info", url = "https://eurips.cc/conference/posters/#poster:117061" },
+  { label = "poster", url = "https://drive.google.com/file/d/1AgVYZ_pa6OknnaIH42Rc_r8kuRhXY0_q/view?usp=sharing" },
+  { label = "paper", url = "https://arxiv.org/abs/2502.09664" },
+  { label = "NeurIPS", url = "https://neurips.cc/virtual/2025/loc/san-diego/poster/117061" },
+]
+where = { en = "International event held in Copenhagen, Denmark.", "pt-br" = "Evento internacional realizado em Copenhague, Dinamarca." }
+
+[[item]]
+kind = "poster"
+year = 2025
+title = "On Exact MCMC methods for the normalised power prior"
+venue = "44th National Congress of Applied and Computational Mathematics (CNMAC)"
+links = [
+  { label = "info", url = "https://www.cnmac.org.br/novo/index.php/CNMAC/conteudo/2025/84/167" },
+  { label = "poster", url = "https://drive.google.com/file/d/1qRRpJezZqsrSxH7sy0m1j_1tJiaFb1ws/view?usp=share_link" },
+  { label = "refs", url = "https://drive.google.com/file/d/1OuVXeYTewrG0V-NkTIXV6ts9j9--MGeG/view?usp=share_link" },
+]
+where = { en = "National event held in Rio de Janeiro, RJ, Brazil.", "pt-br" = "Evento nacional realizado no Rio de Janeiro, RJ, Brasil." }
+
+[[item]]
+kind = "poster"
+year = 2025
+title = "Accelerating medical curation via LLM labelling"
+venue = "2nd International Colloquium on Mathematical Modelling in Epidemiology (ICMME)"
+links = [
+  { label = "info", url = "https://eventos.fgv.br/icmme" },
+  { label = "poster", url = "https://drive.google.com/file/d/1v07bjNi4d1FZdum_TpumXP7EWywUp-OC/view?usp=share_link" },
+  { label = "repo", url = "https://gitlab.com/nanogennari/olim" },
+]
+where = { en = "International event held in Rio de Janeiro, RJ, Brazil.", "pt-br" = "Evento internacional realizado no Rio de Janeiro, RJ, Brasil." }
+
+[[item]]
+kind = "poster"
+year = 2024
+title = "Bayesian shape-constrained function emulation with Gaussian processes"
+venue = "7th Latin-American Congress on Bayesian Statistics (COBAL)"
+links = [
+  { label = "info", url = "https://www.even3.com.br/cobal-ebeb-2024-406344/" },
+  { label = "poster", url = "https://drive.google.com/file/d/1f-dG8pYF4davNv-z_l47t7rDP0i-j05O/view?usp=sharing" },
+  { label = "supp", url = "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adamesalles/shape-constrained-gaussian-processes/main/docs/scgp.pdf" },
+  { label = "repo", url = "https://github.com/adamesalles/shape-constrained-gaussian-processes" },
+]
+where = { en = "International event held in Belo Horizonte, MG, Brazil.", "pt-br" = "Evento internacional realizado em Belo Horizonte, MG, Brasil." }
+
+[[item]]
+kind = "poster"
+year = 2024
+title = "Bayesian shape-constrained curve-fitting with Gaussian processes"
+venue = "43rd National Congress of Applied and Computational Mathematics (CNMAC)"
+links = [
+  { label = "info", url = "https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2024/" },
+  { label = "poster", url = "https://drive.google.com/file/d/1-p6yL6tAdo3KGww1MMG1RpR96uC52D-X/view?usp=share_link" },
+  { label = "repo", url = "https://github.com/adamesalles/shape-constrained-gaussian-processes" },
+]
+where = { en = "National event held in Porto de Galinhas, PE, Brazil.", "pt-br" = "Evento nacional realizado em Porto de Galinhas, PE, Brasil." }
+
+[[item]]
+kind = "talk"
+year = 2023
+title = "Gaussian Processes Visual Tool"
+venue = "III SEEMAp"
+links = [
+  { label = "info", url = "https://www.even3.com.br/seemap2023-399281/" },
+  { label = "slides", url = "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adamesalles/gp-visual-tool/main/presentation.pdf" },
+  { label = "repo", url = "https://github.com/adamesalles/gp-visual-tool" },
+]
+
+[[item]]
+kind = "course"
+year = 2025
+title = "Intro to Neural Networks"
+title_pt = "Introdução a Redes Neurais"
+links = [{ label = "info", url = "https://www.youtube.com/playlist?list=PLh-8fk3VvocCu0I9ELIlBUQeRePmiIVTx" }]
+
+[[item]]
+kind = "course"
+year = 2024
+title = "Introduction to HTML and CSS"
+title_pt = "Introdução a HTML e CSS"
+links = [{ label = "info", url = "https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/desenvolvimento-de-sistemas-web-css-e-html" }]
+
+[[item]]
+kind = "course"
+year = 2023
+title = "LaTeX"
+links = [{ label = "info", url = "https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/latex" }]
