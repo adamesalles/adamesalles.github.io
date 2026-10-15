@@ -38,6 +38,12 @@
 <h2>news</h2>
 <dl>
 
+<dt class="date">2026-09-14</dt>
+<dd>I've officially started my PhD in Statistics at the <a rel="external" href="https://www.maths.ed.ac.uk/">School of Mathematics at The University of Edinburgh</a>!</dd>
+
+<dt class="date">2026-09-08</dt>
+<dd>I'm attending the <a rel="external" href="https://gamex-network.github.io/school/">Edinburgh Summer School on Generative AI for Extremes</a>, from 8 to 11 September.</dd>
+
 <dt class="date">2026-07-10</dt>
 <dd>I'm now a Master, just like Yoda! After passing my viva, I officially hold a MSc in Applied Mathematics from the <a rel="external" href="https://emap.fgv.br/en/">School of Applied Mathematics at FGV</a>! It is available <a rel="external" href="https://repositorio.fgv.br/entities/publication/ec7c2dd0-56e2-493b-90c3-763bd90cfc9a">here</a>.</dd>
 
@@ -79,7 +85,10 @@
 </main>
 <hr>
 <footer>
+<div class="footer-top">
 <address>University of Edinburgh<br>James Clerk Maxwell Building<br>Peter Guthrie Tait Road<br>Edinburgh<br>EH9 3FD</address>
+<img src="https://eadame.ovh/img/psg.gif" alt="" width="386" height="480">
+</div>
 <p>
 <a href="https://github.com/adamesalles">GitHub</a> ·
 <a href="https://scholar.google.com/citations?user=h3_z0bkAAAAJ">Google Scholar</a> ·
@@ -90,5 +99,13 @@
 <br>Built with Zola. Source on GitHub. <a href="https://github.com/adamesalles/adamesalles.github.io">source</a>
 </p>
 </footer>
+<script>
+document.querySelectorAll('a[href]').forEach(function (a) {
+  var h = a.getAttribute('href');
+  if (/^https?:\/\//i.test(h) && a.hostname !== location.hostname || /\.pdf$/i.test(h)) {
+    a.target = '_blank'; a.rel = 'noopener noreferrer';
+  }
+});
+</script>
 </body>
 </html>

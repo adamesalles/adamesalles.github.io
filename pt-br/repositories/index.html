@@ -53,7 +53,10 @@
 </main>
 <hr>
 <footer>
+<div class="footer-top">
 <address>University of Edinburgh<br>James Clerk Maxwell Building<br>Peter Guthrie Tait Road<br>Edinburgh<br>EH9 3FD</address>
+<img src="https://eadame.ovh/img/psg.gif" alt="" width="386" height="480">
+</div>
 <p>
 <a href="https://github.com/adamesalles">GitHub</a> ·
 <a href="https://scholar.google.com/citations?user=h3_z0bkAAAAJ">Google Scholar</a> ·
@@ -64,5 +67,13 @@
 <br>Feito com Zola. Código-fonte no GitHub. <a href="https://github.com/adamesalles/adamesalles.github.io">source</a>
 </p>
 </footer>
+<script>
+document.querySelectorAll('a[href]').forEach(function (a) {
+  var h = a.getAttribute('href');
+  if (/^https?:\/\//i.test(h) && a.hostname !== location.hostname || /\.pdf$/i.test(h)) {
+    a.target = '_blank'; a.rel = 'noopener noreferrer';
+  }
+});
+</script>
 </body>
 </html>

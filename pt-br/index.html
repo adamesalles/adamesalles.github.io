@@ -42,7 +42,7 @@
 </figure>
 <div class="about">
 <p>Olá! Meu nome é Eduardo Adame, sou doutorando na <a rel="external" href="https://maths.ed.ac.uk/">School of Mathematics da University of Edinburgh</a> e no <a rel="external" href="http://maxwell.ac.uk/">Maxwell Institute for Mathematical Sciences</a>, sob orientação de <a rel="external" href="https://jbrich95.github.io/">Jordan Richards</a> e <a rel="external" href="https://webhomes.maths.ed.ac.uk/~mdecarv/">Miguel de Carvalho</a>. Meu doutorado é totalmente pago por uma bolsa da School of Mathematics, e minha pesquisa foca em IA generativa para estatística de extremos.</p>
-<p>Sou mestre em Matemática Aplicada pela <a rel="external" href="https://emap.fgv.br/">Escola de Matemática Aplicada</a> da Fundação Getulio Vargas (FGV EMAp). Lá, sob orientação de <a rel="external" href="https://github.com/maxbiostat">Luiz Max de Carvalho</a> e coorientação de <a rel="external" href="https://est.ufmg.br/~fbgoncalves/">Flávio B. Gonçalves</a>, desenvolvi métodos de computação exata para a Normalised Power Prior. Também contribuí com um trabalho de quantificação de incerteza para restauração generativa de imagens usando predição conforme, e trabalhei com processos gaussianos para emulação de funções.</p>
+<p>Sou mestre em Matemática Aplicada pela <a rel="external" href="https://emap.fgv.br/">Escola de Matemática Aplicada</a> da Fundação Getulio Vargas (FGV EMAp). Lá, sob orientação de <a rel="external" href="https://github.com/maxbiostat">Luiz Max de Carvalho</a> e coorientação de <a rel="external" href="https://est.ufmg.br/~fbgoncalves/">Flávio B. Gonçalves</a>, desenvolvi métodos de computação exata para a Normalised Power Prior. Também contribuí com um trabalho de quantificação de incerteza para restauração generativa de imagens usando conformal prediction, e trabalhei com processos gaussianos para emulação de funções.</p>
 <p>Além da pesquisa, atuei em projetos aplicados. De julho de 2023 a junho de 2025, fui consultor no Banco Mundial, onde conduzi uma análise contrafactual geoespacial do impacto de áreas protegidas nas emissões de carbono na América Latina e no Caribe. Também trabalhei com o Ministério da Fazenda, avaliando e validando estatisticamente sistemas de dados jurídicos.</p>
 <p>Confira meu <a href="/cv/">CV</a> para mais informações. Se eu puder ajudar em algo, fique à vontade para entrar em contato.</p>
 
@@ -61,6 +61,12 @@ Em <em>Advances in Neural Information Processing Systems 38</em> (NeurIPS 2025),
 <h3>últimas notícias</h3>
 <dl>
 
+<dt class="date">2026-09-14</dt>
+<dd>Comecei oficialmente meu doutorado em Estatística na <a rel="external" href="https://www.maths.ed.ac.uk/">School of Mathematics da University of Edinburgh</a>!</dd>
+
+<dt class="date">2026-09-08</dt>
+<dd>Estou participando do <a rel="external" href="https://gamex-network.github.io/school/">Edinburgh Summer School on Generative AI for Extremes</a>, de 8 a 11 de setembro.</dd>
+
 <dt class="date">2026-07-10</dt>
 <dd>Agora sou Mestre, como o Yoda! Depois de passar na defesa, sou oficialmente mestre em Matemática Aplicada pela <a rel="external" href="https://emap.fgv.br/">Escola de Matemática Aplicada da FGV</a>! A dissertação está disponível <a rel="external" href="https://repositorio.fgv.br/entities/publication/ec7c2dd0-56e2-493b-90c3-763bd90cfc9a">aqui</a>.</dd>
 
@@ -70,19 +76,16 @@ Em <em>Advances in Neural Information Processing Systems 38</em> (NeurIPS 2025),
 <dt class="date">2026-01-03</dt>
 <dd>Com mais de 4.500 candidatos inscritos, fui selecionado para a lista final do <a rel="external" href="https://ellis.eu">ELLIS PhD Program</a>.</dd>
 
-<dt class="date">2025-12-03</dt>
-<dd>Estou no EurIPS, em Copenhague, Dinamarca, a partir de hoje! Vou apresentar <a rel="external" href="https://arxiv.org/abs/2502.09664">meu trabalho</a> amanhã.</dd>
-
-<dt class="date">2025-09-18</dt>
-<dd>Estou muito feliz em anunciar que <a rel="external" href="https://arxiv.org/abs/2502.09664">meu artigo sobre Conformal Super-Resolution</a> foi aceito no NeurIPS 2025.</dd>
-
 </dl>
 <p><a href="/pt-br/news/">todas as notícias →</a></p>
 
 </main>
 <hr>
 <footer>
+<div class="footer-top">
 <address>University of Edinburgh<br>James Clerk Maxwell Building<br>Peter Guthrie Tait Road<br>Edinburgh<br>EH9 3FD</address>
+<img src="https://eadame.ovh/img/psg.gif" alt="" width="386" height="480">
+</div>
 <p>
 <a href="https://github.com/adamesalles">GitHub</a> ·
 <a href="https://scholar.google.com/citations?user=h3_z0bkAAAAJ">Google Scholar</a> ·
@@ -93,5 +96,13 @@ Em <em>Advances in Neural Information Processing Systems 38</em> (NeurIPS 2025),
 <br>Feito com Zola. Código-fonte no GitHub. <a href="https://github.com/adamesalles/adamesalles.github.io">source</a>
 </p>
 </footer>
+<script>
+document.querySelectorAll('a[href]').forEach(function (a) {
+  var h = a.getAttribute('href');
+  if (/^https?:\/\//i.test(h) && a.hostname !== location.hostname || /\.pdf$/i.test(h)) {
+    a.target = '_blank'; a.rel = 'noopener noreferrer';
+  }
+});
+</script>
 </body>
 </html>
