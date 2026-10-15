@@ -29,7 +29,10 @@
 </main>
 <hr>
 <footer>
+<div class="footer-top">
 <address>University of Edinburgh<br>James Clerk Maxwell Building<br>Peter Guthrie Tait Road<br>Edinburgh<br>EH9 3FD</address>
+<img src="{{ get_url(path='img/psg.gif') }}" alt="" width="386" height="480">
+</div>
 <p>
 <a href="https://github.com/{{ config.extra.github }}">GitHub</a> ·
 <a href="https://scholar.google.com/citations?user={{ config.extra.scholar }}">Google Scholar</a> ·
@@ -40,5 +43,13 @@
 <br>{{ trans(key="footer", lang=lang) }} <a href="{{ config.extra.repo_url }}">source</a>
 </p>
 </footer>
+<script>
+document.querySelectorAll('a[href]').forEach(function (a) {
+  var h = a.getAttribute('href');
+  if (/^https?:\/\//i.test(h) && a.hostname !== location.hostname || /\.pdf$/i.test(h)) {
+    a.target = '_blank'; a.rel = 'noopener noreferrer';
+  }
+});
+</script>
 </body>
 </html>

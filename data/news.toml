@@ -2,6 +2,16 @@
 # Text is Markdown. Provide "en" and "pt-br".
 
 [[news]]
+date = 2026-09-14
+en = "I've officially started my PhD in Statistics at the [School of Mathematics at The University of Edinburgh](https://www.maths.ed.ac.uk/)!"
+"pt-br" = "Comecei oficialmente meu doutorado em Estatística na [School of Mathematics da University of Edinburgh](https://www.maths.ed.ac.uk/)!"
+
+[[news]]
+date = 2026-09-08
+en = "I'm attending the [Edinburgh Summer School on Generative AI for Extremes](https://gamex-network.github.io/school/), from 8 to 11 September."
+"pt-br" = "Estou participando do [Edinburgh Summer School on Generative AI for Extremes](https://gamex-network.github.io/school/), de 8 a 11 de setembro."
+
+[[news]]
 date = 2026-07-10
 en = "I'm now a Master, just like Yoda! After passing my viva, I officially hold a MSc in Applied Mathematics from the [School of Applied Mathematics at FGV](https://emap.fgv.br/en/)! It is available [here](https://repositorio.fgv.br/entities/publication/ec7c2dd0-56e2-493b-90c3-763bd90cfc9a)."
 "pt-br" = "Agora sou Mestre, como o Yoda! Depois de passar na defesa, sou oficialmente mestre em Matemática Aplicada pela [Escola de Matemática Aplicada da FGV](https://emap.fgv.br/)! A dissertação está disponível [aqui](https://repositorio.fgv.br/entities/publication/ec7c2dd0-56e2-493b-90c3-763bd90cfc9a)."
