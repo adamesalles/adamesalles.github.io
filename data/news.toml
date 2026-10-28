@@ -2,6 +2,11 @@
 # Text is Markdown. Provide "en" and "pt-br".
 
 [[news]]
+date = 2026-10-16
+en = "I'm flattered to announce that I've been elected [Postgraduate Research Representative](https://www.eusa.ed.ac.uk/newsandblogs/article/octoberelectionsresults2026) of the School of Mathematics. It very nice to run for this position, and I'm keen to make the most of it."
+"pt-br" = "Estou muito grato em anunciar que fui eleito o [Representante de Pós-Graduação em Pesquisa](https://www.eusa.ed.ac.uk/newsandblogs/article/octoberelectionsresults2026) da Escola de Matemática. Foi muito legal concorrer a este cargo e estou ansioso para fazer o melhor uso dessa posição." 
+
+[[news]]
 date = 2026-09-14
 en = "I've officially started my PhD in Statistics at the [School of Mathematics at The University of Edinburgh](https://www.maths.ed.ac.uk/)!"
 "pt-br" = "Comecei oficialmente meu doutorado em Estatística na [School of Mathematics da University of Edinburgh](https://www.maths.ed.ac.uk/)!"
